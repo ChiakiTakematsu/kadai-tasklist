@@ -7,5 +7,7 @@
 
     <body>
         @yield('content')
+        
+        @include('commons.error_tasks')
     </body>
 </html>
